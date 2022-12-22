@@ -1,9 +1,7 @@
 package ARRAYS;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Hashtable;
 import java.util.*;
+
 
 public class common_element {
 
