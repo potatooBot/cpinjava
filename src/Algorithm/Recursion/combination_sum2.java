@@ -12,7 +12,7 @@ public class combination_sum2 {
          ans.add(new ArrayList<>(ds));
          return;
      }
-        for (int i = 0; i <arr.length ; i++) {
+        for (int i = idx; i <arr.length ; i++) {
             if (arr[i]>target) break;
             if (i>idx&&arr[i]==arr[i-1]) continue;
             ds.add(arr[i]);
