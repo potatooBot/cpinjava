@@ -20,12 +20,17 @@ public class permutation_of_array {
             }
         }
     }
-    public static void main(String[] args) {
-        int arr[]={1,2,3};
+    public static  List<List<Integer>> perm(int arr[]){
         List <List<Integer>> ans=new ArrayList<>();
         boolean flag[]=new boolean[arr.length];
         ArrayList <Integer> list=new ArrayList<>();
         getPermu(ans,arr,flag,list);
+        return ans;
+    }
+    public static void main(String[] args) {
+        int arr[]={1,2,3};
+        List <List<Integer>> ans=new ArrayList<>();
+        ans=perm(arr);
         System.out.println(ans);
     }
 }
