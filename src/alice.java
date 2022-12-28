@@ -8,12 +8,8 @@ public class alice {
 
 
     public static void main(String[] args) {
-       String str= "aeroplane";
-       char []ch=str.toCharArray();
-        Arrays.sort(ch);
-        for (int i = 0; i < ch.length ; i++) {
-            System.out.println(ch[i]);
-        }
+        double res=(double) 9/2;
+        System.out.println( Math.ceil(res));
     }
 }
 
