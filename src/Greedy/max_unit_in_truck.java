@@ -53,9 +53,12 @@ public class max_unit_in_truck {
         for (int i = 0; i <unit_per_box.length ; i++) {
             list.add(new boxes(no_of_box[i],unit_per_box[i] ));
         }
+
         mycompareforboxes mc_for_boxes=new mycompareforboxes();
         Collections.sort(list,mc_for_boxes);
-
+        for (int i = 0; i <list.size() ; i++) {
+            System.out.println(list.get(i).no_of_box);
+        }
         int total=0;
 
         for (int i = 0; i <list.size() ; i++) {
@@ -72,7 +75,7 @@ total=total +truckSize*box_per_unit;
 truckSize=truckSize-truckSize;
     }
 }
-            System.out.println(total);
+//            System.out.println(total);
 
 //            System.out.println(total);
         }
