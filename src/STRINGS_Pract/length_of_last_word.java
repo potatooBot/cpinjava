@@ -1,5 +1,7 @@
 package STRINGS_Pract;
 
+import java.util.ArrayList;
+
 public class length_of_last_word {
     public static void lengthOfLastWord(String s) {
         s = s.trim();
@@ -11,6 +13,7 @@ public class length_of_last_word {
 //        System.out.println(temp.length());
         }
         System.out.println(count);
+
     }
     public static void main(String[] args) {
         String s = "Hello World";
