@@ -1,5 +1,7 @@
 package Algorithm.Dynamic_Programming.Tabulation;
 
+import java.util.Arrays;
+
 public class frog_jump_with_k_steps {
     static int solveUtil(int n, int[] height, int[] dp, int k){
         dp[0]=0;
