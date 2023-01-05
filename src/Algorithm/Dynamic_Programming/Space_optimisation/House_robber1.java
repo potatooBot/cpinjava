@@ -1,8 +1,6 @@
 package Algorithm.Dynamic_Programming.Space_optimisation;
 
-import java.util.Arrays;
-
-public class maximum_sum_in_array_with_adjacent_elements {
+public class House_robber1 {
     public static int FindMaxSum(int arr[], int n)
     {
         // Your code here
