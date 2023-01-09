@@ -34,7 +34,7 @@ public class top_view_of_tree{
                 tuple tup=q.poll();
                 int level=tup.lev;
                 TreeNode_top_view temp=tup.node;
-                if(map.get(level)==null){
+                if(!map.containsKey(level)){
                     map.put(level,temp.data);
                 }
                 if(temp.left!=null){
