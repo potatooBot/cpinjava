@@ -1,4 +1,4 @@
-package DSA.BinaryTree;
+package DSA.BinaryTree.Level_order_traversal;
 //Time Complexity: O(N)
 //
 //        Space Complexity: O(N)
@@ -6,7 +6,6 @@ package DSA.BinaryTree;
 
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Queue;
 class node {
@@ -37,9 +36,12 @@ static void printLevelOrder(node root){
 
         if(queue.peek().right != null)
             queue.offer(queue.peek().right);
+        System.out.println(queue.size());
 
-        wrapList.add(queue.poll().data);
-        ans.add(new ArrayList<>(wrapList));
+        int val=queue.poll().data;
+//        if(queue.size()==0)
+        wrapList.add(val);
+
     }
     System.out.println(wrapList);
 
@@ -53,6 +55,7 @@ static void printLevelOrder(node root){
         root.left.right = new node(10);
         root.left.left.right = new node(5);
         root.left.left.right.right = new node(6);
+        root.left.left.right.left = new node(25);
         root.right = new node(3);
         root.right.left = new node(9);
         root.right.right = new node(10);

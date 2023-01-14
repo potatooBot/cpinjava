@@ -29,6 +29,10 @@ public class minimum_sum {
             return grid[a][b];
         if(a<0||b<0)
             return (int)Math.pow(10,9);
+
+
+
+
         if(dp[a][b]!=-1)
             return dp[a][b];
         int up=grid[a][b]+getWays(a-1,b,grid,dp);
