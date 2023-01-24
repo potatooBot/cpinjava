@@ -48,6 +48,7 @@ public class vertical_order_traversal {
                 q.offer(new Tuple(node.right, x + 1, y + 1));
             }
         }
+        System.out.println(map);
         List < List < Integer >> list = new ArrayList < > ();
         for (TreeMap < Integer, PriorityQueue < Integer >> ys: map.values()) {
             list.add(new ArrayList < > ());
@@ -57,6 +58,7 @@ public class vertical_order_traversal {
                 }
             }
         }
+
         return list;
     }
 
