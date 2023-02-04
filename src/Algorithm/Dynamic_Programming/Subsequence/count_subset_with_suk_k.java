@@ -6,32 +6,38 @@ public class count_subset_with_suk_k {
 
 
 
-        static int findWaysUtil(int ind, int target, int[] arr,int[][] dp){
-            if(target==0)
-                return 1;
-
-            if(ind == 0)
-                return arr[0] == target?1:0;
-
-            if(dp[ind][target]!=-1)
-                return dp[ind][target];
-
-            int notTaken = findWaysUtil(ind-1,target,arr,dp);
-
-            int taken = 0;
-            if(arr[ind]<=target)
-                taken = findWaysUtil(ind-1,target-arr[ind],arr,dp);
-
-            return dp[ind][target]= notTaken + taken;
+    public static int findWaysUtil(int arr[],int idx,int target,int dp[][]){
+        if(idx==0){
+            if(target==0 && arr[0]==target) return 2;
+            else if(arr[0]==target || target==0) return 1;
+            else return 0;
         }
 
-        static int findWaysMemo(int[] num, int k){
+        if(dp[idx][target]!=-1) return dp[idx][target];
+        int notTake = findWaysUtil(arr,idx-1,target,dp);
+        int take = 0;
+        if(arr[idx]<=target) take =findWaysUtil(arr,idx-1,target-arr[idx],dp);
+
+        return dp[idx][target] = (notTake + take)%1000000007;
+    }
+
+    public int perfectSum(int arr[],int n, int sum)
+    {
+        // Your code goes here
+        int dp[][]=new int[n][sum+1];
+        for(int row[]:dp) Arrays.fill(row,-1);
+
+        return findWaysUtil(arr,n-1,sum,dp);
+
+    }
+
+    static int findWaysMemo(int[] num, int k){
             int n = num.length;
             int dp[][]=new int[n][k+1];
             for(int row[]: dp)
                 Arrays.fill(row,-1);
 
-            return findWaysUtil(n-1,k,num,dp);
+            return findWaysUtil(num,n-1,k,dp);
         }
 
         static int findWaysTabula(int[] num, int k){
