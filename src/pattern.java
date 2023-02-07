@@ -2,35 +2,31 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 public class pattern {
-    public static String pattern(String [] str){
+    public static boolean checkPalindrome(String s,int start,int end){
 
-        char arr[]=str[0].toCharArray();
-
-
-        HashSet <Integer> set=new HashSet<>();
-        boolean check=true;
-        String res="";
-        for (int i = 0; i <str.length-1; i++) {
-
-            System.out.println(str[i].compareTo(str[i+1]));
-            int temp=str[i].compareTo(str[i+1]);
-            if(!set.contains(temp)){
-                check=true;
+        while (start<=end){
+            if(s.charAt(start++)!=s.charAt(end--)){
+                return false;
             }
-            set.add(temp);
-             res=str[i+1];
+        }
+        return true;
+
+    }
+    public static boolean validPalindrome(String s) {
+        int i = 0;
+        int j = s.length() - 1;
+        while (i <= j) {
+            if (s.charAt(i) == s.charAt(j)) {
+                i++;
+                j--;
+
+            } else return checkPalindrome(s, i + 1, j) || checkPalindrome(s, i, j - 1);
         }
 
-        return res;
+        return true;
     }
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int n= sc.nextInt();
-        String []str =new String[4];
-        for (int i = 0; i <n ; i++) {
-            str[i]= sc.next();
-        }
-        pattern(str);
-
+        String s="eccer";
+        System.out.println(validPalindrome(s));
     }
 }
