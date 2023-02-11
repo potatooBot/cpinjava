@@ -8,6 +8,9 @@ public class zer_one_tabulation {
 
             //Base Condition
 
+
+
+
             for(int i=wt[0]; i<=W; i++){
                 dp[0][i] = val[0];
             }
