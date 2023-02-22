@@ -23,7 +23,7 @@ public class longest_common_subsequence_momoization {
 
 
         static int lcs(String s1, String s2) {
-
+            System.out.println("I am in lcs functoion");
             int n=s1.length();
             int m=s2.length();
 
@@ -34,9 +34,9 @@ public class longest_common_subsequence_momoization {
         }
 
         public static void main(String args[]) {
-
-            String s1= "acd";
-            String s2= "ced";
+            System.out.println("Hey ");
+            String s1= "hbcfgmnapq";
+            String s2= "cbhgrsfnmq";
 
             System.out.println("The Length of Longest Common Subsequence is "+lcs(s1,s2));
         }
