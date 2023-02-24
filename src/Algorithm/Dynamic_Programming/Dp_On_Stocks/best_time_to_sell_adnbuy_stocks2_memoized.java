@@ -9,14 +9,14 @@ public class best_time_to_sell_adnbuy_stocks2_memoized {
         }
         if(dp[idx][buy]!=-1) return dp[idx][buy];
         int profit=0;
-        if(buy==0){
+        if(buy==0){ //We can buy Stock
 
-            profit=Math.max(pr[idx] + getMaxProfit(pr,idx+1,1,dp), 0 + getMaxProfit(pr,idx+1,0,dp));
+            profit=Math.max(-pr[idx] + getMaxProfit(pr,idx+1,1,dp), 0 + getMaxProfit(pr,idx+1,0,dp));
         }
 
 
-        if(buy==1) {
-            profit=Math.max(-pr[idx]+getMaxProfit(pr,idx+1,0,dp) ,0 + getMaxProfit(pr,idx+1,1,dp));
+        if(buy==1) { //We can sell stock
+            profit=Math.max(pr[idx]+getMaxProfit(pr,idx+1,0,dp) ,0 + getMaxProfit(pr,idx+1,1,dp));
         }
 
 
@@ -30,7 +30,7 @@ public class best_time_to_sell_adnbuy_stocks2_memoized {
         for(int rows[]:dp) Arrays.fill(rows,-1);
 
 
-        return getMaxProfit(prices,0,1,dp);
+        return getMaxProfit(prices,0,0,dp);
 
     }
 
