@@ -1,4 +1,4 @@
-package Algorithm.Dynamic_Programming.Dp_on_Subsequence;
+package Algorithm.Dynamic_Programming.Dp_on_String;
 
 import java.util.Arrays;
 

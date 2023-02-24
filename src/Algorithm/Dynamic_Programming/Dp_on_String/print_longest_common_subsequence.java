@@ -1,6 +1,6 @@
-package Algorithm.Dynamic_Programming.Dp_on_Subsequence;
+package Algorithm.Dynamic_Programming.Dp_on_String;
 
-public class print_lowest_common_subsequence {
+public class print_longest_common_subsequence {
 
         static void lcs(String s1, String s2) {
 
@@ -17,6 +17,7 @@ public class print_lowest_common_subsequence {
 
             for(int ind1=1;ind1<=n;ind1++){
                 for(int ind2=1;ind2<=m;ind2++){
+
                     if(s1.charAt(ind1-1)==s2.charAt(ind2-1))
                         dp[ind1][ind2] = 1 + dp[ind1-1][ind2-1];
                     else
@@ -36,13 +37,14 @@ public class print_lowest_common_subsequence {
             StringBuilder ss= new StringBuilder(s1);
             StringBuilder str2=new StringBuilder(str);
             while(i>0 && j>0){
-                if(ss.charAt(i-1) == s2.charAt(j-1)){
+                if(s1.charAt(i-1) == s2.charAt(j-1)){
                     str2.setCharAt(index,ss.charAt(i-1) );
                     index--;
                     i--;
                     j--;
                 }
                 else if(ss.charAt(i-1)>s2.charAt(j-1)){
+
                     i--;
                 }
                 else j--;
