@@ -65,6 +65,8 @@ int delcol[]={0,-1,0,1};
         int n= grid.length;
         int m= grid[0].length;
         boolean vis[][]=new boolean[n][m];
+
+
         for (int j = 0; j <m ; j++) {
             if (grid[0][j] == 1 && vis[0][j] == false) {
                 dfs(0, j, vis, grid, delrow, delcol);
