@@ -1,5 +1,7 @@
 package Graph.Dijkstra_Algorithm;
-
+//Time Complexity: O( E log(V) ), Where E = Number of edges and V = Number of Nodes.
+//
+//        Space Complexity: O( |E| + |V| ), Where E = Number of edges and V = Number of Nodes.
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.PriorityQueue;

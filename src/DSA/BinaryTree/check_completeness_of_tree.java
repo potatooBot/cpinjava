@@ -20,6 +20,7 @@ public class check_completeness_of_tree {
             if(root == null) return true;
             Queue<TreeNode> q = new LinkedList<>();
             q.offer(root);
+
             boolean nullBw = false;
             while(!q.isEmpty()){
                 int s = q.size();
@@ -35,5 +36,9 @@ public class check_completeness_of_tree {
             }
             return true;
         }
+    }
+
+    public static void main(String[] args) {
+
     }
 }
