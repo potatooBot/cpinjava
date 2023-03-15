@@ -35,7 +35,7 @@ public class word_ladder_1 {
                     char charArrayforWord[] = str.toCharArray();
                     charArrayforWord[i] =ch;
                     String replacedWord=new String(charArrayforWord);
-                   // System.out.println(replacedWord);
+                    // ! If it exist in Set
                 if(set.contains(replacedWord)==true){
                     System.out.println(replacedWord);
                     q.add(new pair(replacedWord,steps+1));
@@ -47,8 +47,8 @@ public class word_ladder_1 {
     return 0;
     }
     public static void main(String[] args) {
-        String wordList[] = {"des","der","dfr","dgt","dfs"};
-      String  startWord = "der", targetWord= "dfs";
+        String wordList[] = {"hot","dot","dog","lot","log","cog"};
+      String  startWord = "hit", targetWord="cog";
       int ans=wordLadderLength(startWord,targetWord,wordList);
         System.out.println(ans);
     }
