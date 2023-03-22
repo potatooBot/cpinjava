@@ -1,4 +1,4 @@
-package Graph;
+package Graph.Floyd_Warshall;
 
 public class Floyd_Warshall {
     static  public void shortest_distance(int[][] matrix)
