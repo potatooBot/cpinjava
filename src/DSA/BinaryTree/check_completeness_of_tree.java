@@ -16,16 +16,16 @@ import java.util.*;
 public class check_completeness_of_tree {
 
     class Solution {
-        public boolean isCompleteTree(TreeNode root) {
+        public boolean isCompleteTree(TreeNode2 root) {
             if(root == null) return true;
-            Queue<TreeNode> q = new LinkedList<>();
+            Queue<TreeNode2> q = new LinkedList<>();
             q.offer(root);
 
             boolean nullBw = false;
             while(!q.isEmpty()){
                 int s = q.size();
                 for(int x = 0; x<s; x++){
-                    TreeNode curr = q.poll();
+                    TreeNode2 curr = q.poll();
                     if(curr == null) nullBw = true;
                     else {
                         if(nullBw) return false;

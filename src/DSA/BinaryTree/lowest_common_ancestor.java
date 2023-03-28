@@ -1,13 +1,13 @@
 package DSA.BinaryTree;
 
 public class lowest_common_ancestor {
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    public TreeNode2 lowestCommonAncestor(TreeNode2 root, TreeNode2 p, TreeNode2 q) {
         //base case
         if (root == null || root == p || root == q) {
             return root;
         }
-        TreeNode left = lowestCommonAncestor(root.left, p, q);
-        TreeNode right = lowestCommonAncestor(root.right, p, q);
+        TreeNode2 left = lowestCommonAncestor(root.left, p, q);
+        TreeNode2 right = lowestCommonAncestor(root.right, p, q);
 
         //result
         if(left == null) {

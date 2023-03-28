@@ -8,7 +8,7 @@ public class account_merged {
     public  static List<List<String>> accountsMerge(List<List<String>> accounts) {
 
 int n=accounts.size();
-DisjoinSet ds=new DisjoinSet(n);
+DisjointSet ds=new DisjointSet(n);
         HashMap<String,Integer> map=new HashMap<>();
         for (int i = 0; i <n ; i++) {
             for (int j = 1; j <accounts.get(i).size() ; j++) {
