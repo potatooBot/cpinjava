@@ -17,8 +17,8 @@ import java.util.*;
 
 public class shorted_distance_with_unit_weight {
     public static void main(String[] args) {
-        int n = 9, m = 10;
-        int[][] edge = {{0, 1}, {0, 3}, {3, 4}, {4, 5}, {5, 6}, {1, 2}, {2, 6}, {6, 7}, {7, 8}, {6, 8}};
+        int n = 8, m = 7;
+        int edge[][] = {{1,3},{3,5},{5,7},{7,1},{0,2},{2,4},{4,0}};
 
         int res[] = shortestPath(edge, n, m, 0);
         System.out.println("ShortedDistance with Unit Weight");
@@ -40,7 +40,7 @@ public class shorted_distance_with_unit_weight {
             adj.get(edges[i][0]).add(edges[i][1]);
             adj.get(edges[i][1]).add(edges[i][0]);
         }
-        //A dist array of size N initialised with a large number to
+        System.out.println(adj);        //A dist array of size N initialised with a large number to
         //indicate that initially all the nodes are untraversed.
         int dist[] = new int[n];
         for (int i = 0; i < n; i++) dist[i] = (int) 1e9;
