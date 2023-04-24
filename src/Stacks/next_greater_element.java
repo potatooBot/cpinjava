@@ -4,35 +4,33 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Stack;
+import java.util.stream.Collectors;
 
 public class next_greater_element {
-    public static int[] nextGreaterElement(int[] nums1, int[] nums2) {
-        int res[]=new int[nums1.length];
+    public static int[] nextGreaterElement(int[] nums1, int n) {
+int ans[]=new int[n];
+Stack<Integer> stk=new Stack<>();
+        for (int i = n-1; i >=0 ; i--) {
+while (stk.isEmpty()==false&&stk.peek()<=nums1[i]){
+    stk.pop();
 
-        int k=0;
-        Arrays.fill(res,-1);
-        boolean check=true;
-        for (int i = 0; i <nums1.length ; i++) {
+}
 
-            check=true;
-             for (int j = 0; j < nums2.length ; j++) {
-                if(nums2[j]>nums1[i]) {
-                   res[k++]=nums2[j];
-                   check=false;
-                break;
-                }
-            }
-             if (check==true) k++;
+if(stk.isEmpty()==false&&stk.peek()>nums1[i])
+{
+    ans[i]=stk.peek();
+}
+else {
+    ans[i]=-1;
+}
+stk.push((int)nums1[i]);
         }
-
-
-        return res;
+return ans;
     }
     public static void main(String[] args) {
-        int nums1 []= {4,1,2}; int nums2 []= {1,3,4,2};
-        int res[]=nextGreaterElement(nums1,nums2);
-        for (int i = 0; i <res.length ; i++) {
-            System.out.println(res[i]);
-        }
+        int nums1 []= {1 ,3 ,2 ,4};
+int n=4;
+int ans[]=nextGreaterElement(nums1,n);
+        System.out.println(Arrays.stream(ans).boxed().collect(Collectors.toList()));
     }
 }
