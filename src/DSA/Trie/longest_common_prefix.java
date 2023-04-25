@@ -26,7 +26,8 @@ class Trie{
 }
 public class longest_common_prefix {
     public static Trie root;
-    public longest_common_prefix(){
+    public longest_common_prefix()
+    {
         root=new Trie();
     }
     public void insert(String word){
