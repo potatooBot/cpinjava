@@ -2,8 +2,6 @@ package Graph.Disjoint_Set;
 
 import java.util.HashSet;
 
-import static Stacks.valid_parenthesis.isValid;
-
 public class maximum_connexted_group {
     static private boolean isValid(int newr, int newc, int n) {
         return newr >= 0 && newr < n && newc >= 0 && newc < n;
