@@ -10,14 +10,11 @@
  */
 class Solution {
       public static ListNode reverse(ListNode head){
-        ListNode newHead = null;
-        while (head != null) {
-            ListNode next = head.next;
-            head.next = newHead;
-            newHead = head;
-            head = next;
-        }
-        return newHead;
+       if(head.next==null||head==null) return head;
+  ListNode newHead=reverse(head.next);
+  head.next.next=head;
+  head.next=null;
+  return newHead;
     }
  public ListNode addTwoNumbers(ListNode first, ListNode second) {
         ListNode l1=reverse(first);
