@@ -37,61 +37,27 @@ class GFG
 //User function Template for Java
 
 class Solution {
+     static long numberOfPath(int n, int k, int [][]arr) {
+        // code here
 
-    
-
-    public long fun(int N, int K, int [][] arr, int i, int j, long [][][] dp){
-
-        if(i >= N || j >= N) return 0;
-
-        if(K < 0) return 0;
-
-        if( i == N-1 && j== N-1){
-
-            // System.out.println("value is "+ K + " i and j is "+ i + " "+ j);
-
-            if( K == arr[i][j]) return 1;
-
+        long dp[][][]=new long[n][n][k+1];
+    return getCoinsNumber(n,k,arr,dp,0,0,0);
+    }
+    public static long getCoinsNumber(int n,int k,int arr[][],long dp[][][],int row,int col,int sum){
+        if(row>=arr.length||col>=arr[0].length){
             return 0;
-
-        } 
-
-        if(dp[i][j][K] !=  0) return dp[i][j][K];
-
-        long down = fun(N, K - arr[i][j], arr, i+1, j, dp);
-
-        long right = fun(N, K - arr[i][j], arr, i, j+1, dp);
-
+        }
         
-
-        return dp[i][j][K] = down + right;
-
         
-
+   if(k<0) return 0;
+            if(row==arr.length-1&&col==arr[0].length-1){
+        if(arr[row][col]==k) return 1;
+         return 0;
     }
-
-    
-
-    
-
-    long numberOfPath(int N, int K, int [][]arr) {
-
+        if(dp[row][col][k]!=0) return dp[row][col][k];
         
-
-        long  [][][] dp = new long[N][N][K+1];
-
-        // for(int i=0; i<N; i++){
-
-        //     for(int j=0; j<N; j++){
-
-        //         for(int k=0; k<K; k++) dp[i][j][k] = -;
-
-        //     }
-
-        // }
-
-        return fun(N, K, arr, 0, 0, dp);
-
+    long down= getCoinsNumber(n,k-arr[row][col],arr,dp,row+1,col,sum);
+        long right= getCoinsNumber(n,k-arr[row][col],arr,dp,row,col+1,sum);
+    return dp[row][col][k]=down+right;
     }
-
 }
