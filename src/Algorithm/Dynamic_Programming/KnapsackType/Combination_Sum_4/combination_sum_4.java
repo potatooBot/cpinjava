@@ -38,9 +38,9 @@ public class combination_sum_4 {
         int pick=0;
         notPick=getCombination(nums,dp,target,idx-1);
         if(nums[idx]<=target){
-            // like coin change 2
-            // only difference is that permutations have to start from 0
-            // to take other rearrangements
+            //* !like coin change 2
+            //* ! only difference is that permutations have to start from 0
+            //* ! to take other rearrangements
             pick=getCombination(nums,dp,target-nums[idx],nums.length-1);
         }
 
