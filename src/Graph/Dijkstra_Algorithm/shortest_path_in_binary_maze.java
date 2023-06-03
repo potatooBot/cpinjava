@@ -16,14 +16,14 @@ public class shortest_path_in_binary_maze {
     static  int shortestPath(int[][] grid, int[] source, int[] destination) {
         if (source[0]==destination[0]&&source[1]==destination[1]) return 0;
 
-        Queue <tuple> q=new LinkedList<>();
+        Queue <Graph.Dijkstra_Algorithm.tuple> q=new LinkedList<>();
         int n= grid.length;;
         int m=grid[0].length;
 int distace[][]=new int[n][m];
         for(int row[]:distace)
             Arrays.fill(row,(int)1e9);
 distace[source[0]][source[1]]=0;
-        q.add(new tuple(source[0],source[1],0));
+        q.add(new Graph.Dijkstra_Algorithm.tuple(source[0],source[1],0));
         int delrow[]={-1,0,1,0};
         int delcol[]={0,-1,0,1};
         while (!q.isEmpty()){
@@ -43,7 +43,7 @@ q.remove();
             {
                 return step +1;
             }
-                    q.add(new tuple(nrow,ncol,step+1));
+                    q.add(new Graph.Dijkstra_Algorithm.tuple(nrow,ncol,step+1));
                 }
             }
         }
