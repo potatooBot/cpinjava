@@ -1,0 +1,85 @@
+//{ Driver Code Starts
+// Initial Template for Java
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class GFG {
+    public static void main(String args[]) throws IOException {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            int N = sc.nextInt();
+            int[] arr = new int[N];
+            for (int i = 0; i < N; i++) {
+                arr[i] = sc.nextInt();
+            }
+            Solution obj = new Solution();
+            int res = obj.countRevPairs(N, arr);
+            System.out.println(res);
+        }
+    }
+}
+// } Driver Code Ends
+
+
+// User function Template for Java
+
+class Solution {
+          public static void merge(int nums[],int low,int mid,int high){
+
+        ArrayList<Integer> temp=new ArrayList<>();
+        int left=low;
+        int right=mid+1;
+
+        while (left<=mid&&right<=high){
+            if(nums[left]<=nums[right]){
+                temp.add(nums[left]);
+                left++;
+            }
+            else {
+                temp.add(nums[right]);
+                right++;
+            }
+        }
+
+
+        while (left<=mid){
+            temp.add(nums[left] );
+            left++;
+        }
+        while (right<=high){
+            temp.add(nums[right] );
+            right++;
+        }
+        for (int i = low; i <=high ; i++) {
+            nums[i]=temp.get(i-low);
+        }
+    }
+    public static int countReversePairs(int nums[],int low,int mid,int high){
+        int count=0;
+int right=mid+1;
+        for (int i = low; i <=mid ; i++) {
+            while (right<=high&&nums[i]>(long)2*(long)nums[right]){
+                right++;
+            }
+            count=count+(right-(mid+1));
+        }
+return count;
+    }
+    public static int mergeSort(int nums[],int low,int high){
+        int count=0;
+        if(low>=high) return count;
+        int mid=(low+high)/2;
+        count+=mergeSort(nums,low,mid);
+        count+=mergeSort(nums,mid+1,high);
+        count+=countReversePairs(nums,low,mid,high);
+        merge(nums,low,mid,high);
+        return count;
+    }
+    public int countRevPairs(int N, int arr[]) {
+        int count=mergeSort(arr,0,N-1);
+        return count;
+    }
+}
