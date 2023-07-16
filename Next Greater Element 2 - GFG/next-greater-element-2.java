@@ -31,7 +31,7 @@ class GFG {
 
 class Solution {
     static int[] nextGreaterElement(int N, int nums1[]) {
-       int n=nums1.length;
+            int n=nums1.length;
         int ans[]=new int[n];
 Stack<Integer> stk=new Stack<>();
         for (int i = 2*n-1; i >=0 ; i--) {
