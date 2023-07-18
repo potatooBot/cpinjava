@@ -76,29 +76,20 @@ class GfG
     //Function to remove duplicates from sorted linked list.
     Node removeDuplicates(Node head)
     {
-	// Your code here
-	  Node sentinel =new Node(0);
-	  sentinel.next=head;
-
-  
-        Node pred = head;
+if(head==null) return head ;
+    Node cur=head;
+    
+    while(cur!=null){
         
-        while (head != null) {
-         
-            if (head.next != null && head.data == head.next.data) {
-             
-                while (head.next != null && head.data == head.next.data) {
-                    head = head.next;    
-                }
-
-                pred.next = head.next;     
-   
-            } 
-                pred = pred.next;    
-            head = head.next;    
-        }  
-        return sentinel.next;
-   
-	
+        if(cur.next!=null&&cur.data==cur.next.data){
+            cur.next=cur.next.next;
+        }
+        else{
+            cur=cur.next;
+        }
+        
+        
+    }
+     return head;   
     }
 }
