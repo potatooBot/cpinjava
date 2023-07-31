@@ -39,7 +39,7 @@ class Solution {
     int n=exp.length();
         Stack<Character> stk=new Stack<>();
         for (int i = 0; i <n ; i++) {
-         if((exp.charAt(i)>='a'&&exp.charAt(i)<='z')||(exp.charAt(i)=='A'&&exp.charAt(i)<='Z')||(exp.charAt(i)>='0'&&exp.charAt(i)<='9')){
+         if((exp.charAt(i)>='a'&&exp.charAt(i)<='z')||(exp.charAt(i)>='A'&&exp.charAt(i)<='Z')||(exp.charAt(i)>='0'&&exp.charAt(i)<='9')){
              ans=ans+exp.charAt(i);
          }
          else if (exp.charAt(i)=='(') {
