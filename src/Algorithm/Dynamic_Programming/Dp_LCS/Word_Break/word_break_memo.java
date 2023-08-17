@@ -1,4 +1,4 @@
-package Algorithm.Dynamic_Programming.Dp_on_String.Word_Break;
+package Algorithm.Dynamic_Programming.Dp_LCS.Word_Break;
 import java.util.*;
 public class word_break_memo {
     static  public boolean wordBreak(String s, List<String> wordDict) {

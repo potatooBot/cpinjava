@@ -1,4 +1,4 @@
-package Algorithm.Dynamic_Programming.Dp_on_String.Word_Break;
+package Algorithm.Dynamic_Programming.Dp_LCS.Word_Break;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package Algorithm.Dynamic_Programming.Dp_on_String;
+package Algorithm.Dynamic_Programming.Dp_LCS;
 
 public class shortest_common_subsequence {
     static String shortestSupersequence(String s1, String s2){

@@ -1,4 +1,4 @@
-package Algorithm.Dynamic_Programming.Dp_on_String;
+package Algorithm.Dynamic_Programming.Dp_LCS;
 
 public class edit_distance_tabulation {
     public static int minDistance(String word1, String word2) {

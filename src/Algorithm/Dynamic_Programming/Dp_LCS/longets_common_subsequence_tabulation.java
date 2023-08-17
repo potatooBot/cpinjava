@@ -1,4 +1,4 @@
-package Algorithm.Dynamic_Programming.Dp_on_String;
+package Algorithm.Dynamic_Programming.Dp_LCS;
 
 import java.util.Arrays;
 

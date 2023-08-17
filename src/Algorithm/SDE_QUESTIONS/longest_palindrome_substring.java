@@ -1,4 +1,4 @@
-package Algorithm.Dynamic_Programming.Dp_LCS;
+package Algorithm.SDE_QUESTIONS;
 
 public class longest_palindrome_substring {
     static    public String longestPalindrome(String s) {

@@ -19,11 +19,14 @@ class TrieInXor{
     public TrieInXor(){
 root=new NodeTrie();
     }
+
     public void insert(int num){
 NodeTrie node=root;
         for (int i = 31; i>=0 ; i--) {
             int bit=(num>>i) & 1;
+
             if(!node.containsKey(bit)){
+
                 node.put(bit,new NodeTrie());
             }
             node=node.get(bit);
