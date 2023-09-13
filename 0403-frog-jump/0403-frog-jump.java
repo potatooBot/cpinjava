@@ -11,14 +11,9 @@ class Solution {
 
 
     public static int getJump(int stones[],int idx,int jump,int dp[][]){
-if(dp[idx][jump]>=0) {
+if(dp[idx][jump]!=-1) {
     return dp[idx][jump];
 }
-
-
-
-
-
 int idx2=Arrays.binarySearch(stones,idx+1,stones.length,stones[idx]+jump);
 if(idx2>=0&&getJump(stones,idx2,jump,dp)==1){
     return dp[idx][jump]=1;
