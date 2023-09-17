@@ -1,16 +1,41 @@
 class Solution {
-    public boolean isAnagram(String s, String t) {
-           char [] first=s.toCharArray();
-        char [] tstr=t.toCharArray();
-        Arrays.sort(first);
-        Arrays.sort(tstr);
-       String sorted1=new String(first);
-       String sorted2=new String(tstr);
-        if(sorted1.equals(sorted2)){
-        return true;
+    public boolean isAnagram(String a, String b) {
+          if(a.length()!=b.length()){
+            return false;
         }
-        else {
-          return false;
+        
+       /* ArrayList<Character> str1=new ArrayList<>();
+        
+        for(int i=0;i<a.length();i++){
+            str1.add(a.charAt(i));
+            
         }
+        
+          ArrayList<Character> str2=new ArrayList<>();
+        
+        for(int i=0;i<b.length();i++){
+            str2.add(b.charAt(i));
+        }
+        
+        
+Collections.sort(str1);
+Collections.sort(str2);
+
+if(str1.equals(str2)) {
+    return true;
+}*/
+
+LinkedHashMap <Character,Integer> map1=new LinkedHashMap<>();
+LinkedHashMap <Character,Integer> map2=new LinkedHashMap<>();
+
+    for(int i=0;i<a.length();i++){
+            map1.put(a.charAt(i),map1.getOrDefault(a.charAt(i),0)+1);
+            map2.put(b.charAt(i),map2.getOrDefault(b.charAt(i),0)+1);
+            
+        }
+        
+if(map1.equals(map2)) return true;
+
+return false;
     }
 }
