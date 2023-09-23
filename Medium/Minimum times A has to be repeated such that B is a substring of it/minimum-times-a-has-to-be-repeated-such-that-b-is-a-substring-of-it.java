@@ -6,16 +6,14 @@ class GFG {
     public static void main(String args[]) throws IOException {
         BufferedReader read =
             new BufferedReader(new InputStreamReader(System.in));
-        PrintWriter out=new PrintWriter(System.out);
         int t = Integer.parseInt(read.readLine());
         while (t-- > 0) {
             String A = read.readLine();
             String B = read.readLine();
 
             Solution ob = new Solution();
-            out.println(ob.minRepeats(A,B));
+            System.out.println(ob.minRepeats(A,B));
         }
-        out.close();
     }
 }
 // } Driver Code Ends
@@ -25,22 +23,23 @@ class GFG {
 
 class Solution {
     static int minRepeats(String A, String B) {
-        String dup=A;
-        if(A.equals(B)) return 1;
-        //  if(A.length()>B.length()) return -1;
-        int count=1;
-        while(A.length()<B.length()){
-            A=A+dup;
-            count++;
-        }
+        int n = B.length(), m = A.length();
         
-        if(A.indexOf(B)!=-1){
-            return count;
-        }
-        A=A+dup;
-        count++;
-         if(A.indexOf(B)!=-1){
-            return count;
+        int max = n/m+1;
+        int min = 1;
+        String S = A;
+        
+        for(int i=0; i<=max; i++)
+        {
+            if(A.contains(B))
+            {
+                return min;
+                
+            }
+            
+            A = A + S;
+            min++;
+            
         }
         
         return -1;
