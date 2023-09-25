@@ -49,10 +49,6 @@ class Solution {
     maxi=Math.max(maxi,dp[i][j]);
         }
     }
-    for(int rows[]:dp){
-        System.out.print(Arrays.toString(rows));
-        System.out.println();
-    }
     
     return maxi*maxi;
     }
