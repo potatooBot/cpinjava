@@ -63,7 +63,7 @@ class Solution
         for(int i=0;i<N;i++){
             maxi=Math.max(maxi,arr[i]);
         }
-        
+        int ans=0;
         int low=maxi;
         int high=sum;
         
@@ -76,10 +76,12 @@ class Solution
             }
             else{
                 high=mid-1;
+            ans=mid;
+                
             }
         }
         
         
-        return low;
+        return ans;
     }
 };
