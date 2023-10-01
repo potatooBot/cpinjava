@@ -14,7 +14,6 @@ Collections.sort(ds);
 System.out.println(ds);
 for(int ele:ds){
 if(set.contains(ele)){
-
 while(set.contains(ele)==true&&ele!=0){
 ele=ele-1;
 cnt++;
