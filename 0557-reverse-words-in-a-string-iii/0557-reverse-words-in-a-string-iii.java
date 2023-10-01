@@ -1,21 +1,16 @@
 class Solution {
-    public String reverseWords(String str) {
-           Stack<Character> stk=new Stack<>();
+    public String reverseWords(String s) {
+        String str[]=s.split(" ");
         String ans="";
-        for (int i = 0; i <str.length() ; i++) {
-            if(str.charAt(i)==' '){
-                while (stk.isEmpty()==false){
-                    ans=ans+stk.pop();
-                }
-                ans=ans+' ';
-            }
-            else {
-                stk.push(str.charAt(i));
-            }
+       // System.out.println(Arrays.toString(str));
+        for(int i=0;i<str.length;i++){
+String val=str[i];
+for(int j=val.length()-1;j>=0;j--){
+ans=ans+val.charAt(j);
         }
-      while (stk.isEmpty()==false){
-          ans=ans+stk.pop();
-      }
-     return ans;  
+        if(i!=str.length-1)
+        ans=ans +" ";
+        }
+        return ans;
     }
 }
