@@ -6,8 +6,8 @@ class Solution {
 
     int dp[][]=new int[n+1][m+1]; 
  
-    for(int ind1=0;ind1<=n;ind1++){
-        for(int ind2=0;ind2<=m;ind2++){
+    for(int ind1=1;ind1<=n;ind1++){
+        for(int ind2=1;ind2<=m;ind2++){
             if(ind1==0||ind2==0)
             dp[ind1][ind2]=Integer.MIN_VALUE;
             else{
