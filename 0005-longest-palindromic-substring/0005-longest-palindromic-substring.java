@@ -1,30 +1,38 @@
 class Solution {
-      static    public String longestPalindrome(String s) {
+    public String longestPalindrome(String s) {
+         int n=s.length();
+         int maxi=-1;
+         String ans="";
 
-        if(s.length()<1||s==null) return "";
-        int start=0;
-        int end=0;
-        for (int i = 0; i <s.length() ; i++) {
-            int len1=expandFromCenter(s,i,i);
-            int len2=expandFromCenter(s,i,i+1);
-            int len=Math.max(len1,len2);
-
-            if(len>end-start){
-                start=i-(len-1)/2;
-                end=i+len/2;
-            }
-        }
-
-        return s.substring(start,end+1);
+        int cnt=0;
+        boolean dp[][]=new boolean[s.length()][s.length()];
+    for(int g=0;g<n;g++){
+for(int i=0,j=g;j<n;i++,j++){
+    if(g==0){
+        dp[i][j]=true;
     }
-    public static int expandFromCenter(String str,int left,int right){
-        int L=left;
-        int R=right;
-        while (L>=0&&R<str.length()&&str.charAt(L)==str.charAt(R)){
-            L--;
-            R++;
-
+    else if(g==1){
+        if(s.charAt(i)==s.charAt(j))
+        {
+            dp[i][j]=true;
         }
-        return R-L-1;
+    }
+    else {
+        if(s.charAt(i)==s.charAt(j)&&dp[i+1][j-1]==true){
+            dp[i][j]=true;
+        }
+    }
+    if(dp[i][j]==true)
+    {int val=j-i+1;
+        if(val>maxi){
+            ans=s.substring(i,j+1);
+            maxi=val;
+        }
+        cnt++;
+    }
+}
+
+    }
+return ans;
     }
 }
