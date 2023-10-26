@@ -33,57 +33,37 @@ class GFG {
 // } Driver Code Ends
 
 
-
-class meeting{
-    int start,end,pos;
-    
-    public meeting(int start,int end,int post){
-        this.start=start;
-        this.end=end;
-        this.pos=pos;
-    }
-}
-
-class meetingComparator implements Comparator<meeting>{
-    @Override
-    public int compare(meeting o1,meeting o2){
-        if(o1.end<o2.end){
-            return -1;
-        }
-        else if(o1.end<o2.end) {
-            return 1;
-        }
-         else if(o1.pos < o2.pos){
-            return -1;
-         }
-         return 1;
-    }
-}
 class Solution 
 {
     //Function to find the maximum number of meetings that can
     //be performed in a meeting room.
     public static int maxMeetings(int start[], int end[], int n)
-    
     {
-        ArrayList <meeting> meet=new ArrayList<>();
         
-       for(int i=0;i<start.length;i++){
-           meet.add(new meeting(start[i],end[i],i+1));
-       }
-       meetingComparator mc = new meetingComparator(); 
-       
-       Collections.sort(meet,mc);
-       ArrayList<Integer> answer = new ArrayList<>();
-        answer.add(meet.get(0).pos);
-        int limit = meet.get(0).end; 
-    
-           for(int i = 1;i<start.length;i++) {
-            if(meet.get(i).start > limit) {
-                limit = meet.get(i).end; 
-                answer.add(meet.get(i).pos);
-            }
+        int arr[][]=new int[n][2];
+        
+        
+        for(int i=0;i<n;i++){
+            arr[i][0]=start[i];
+            arr[i][1]=end[i];
         }
-        return answer.size();
+        Arrays.sort(arr,(a,b)->Integer.compare(a[1],b[1]));
+      /*  for(int rows[]:arr)
+        System.out.println(Arrays.toString(rows));*/
+        int cnt=1;
+        int ans=1;
+        int e=arr[0][1];
+        for(int i=1;i<n;i++){
+            if(e<arr[i][0]){
+                cnt++;
+            e=arr[i][1];
+            ans=Math.max(ans,cnt);
+            }
+          //  else{
+                  // e=arr[i][1];
+          //  cnt=1;
+         //   }
+        }
+        return ans;
     }
 }
