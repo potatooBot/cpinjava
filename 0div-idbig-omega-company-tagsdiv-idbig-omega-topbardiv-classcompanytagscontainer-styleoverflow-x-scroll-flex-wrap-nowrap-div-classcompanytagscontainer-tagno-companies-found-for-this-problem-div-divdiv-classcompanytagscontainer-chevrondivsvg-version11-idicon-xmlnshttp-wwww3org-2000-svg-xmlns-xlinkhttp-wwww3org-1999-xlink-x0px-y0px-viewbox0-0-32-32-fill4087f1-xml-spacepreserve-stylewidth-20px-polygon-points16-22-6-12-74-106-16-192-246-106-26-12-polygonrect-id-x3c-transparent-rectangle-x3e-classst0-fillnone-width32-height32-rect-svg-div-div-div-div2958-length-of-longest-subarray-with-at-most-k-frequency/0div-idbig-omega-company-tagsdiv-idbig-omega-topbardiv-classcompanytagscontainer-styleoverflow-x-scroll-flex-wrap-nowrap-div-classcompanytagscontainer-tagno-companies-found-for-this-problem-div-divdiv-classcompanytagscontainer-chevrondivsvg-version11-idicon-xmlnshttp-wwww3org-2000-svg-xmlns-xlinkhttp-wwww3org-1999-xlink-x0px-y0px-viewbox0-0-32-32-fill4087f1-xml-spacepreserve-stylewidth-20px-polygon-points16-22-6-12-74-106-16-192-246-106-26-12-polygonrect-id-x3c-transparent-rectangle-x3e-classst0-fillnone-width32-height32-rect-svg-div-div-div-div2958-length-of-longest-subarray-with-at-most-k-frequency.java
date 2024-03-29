@@ -8,7 +8,7 @@ HashMap<Integer,Integer> map=new HashMap<>();
             map.put(nums[i],map.getOrDefault(nums[i],0)+1);
               int store=nums[i];
             while(map.get(store)>k){
-            System.out.println(start);
+            //System.out.println(start);
 int val=map.get(nums[start]);
 map.put(nums[start],val-1);
 start++;
