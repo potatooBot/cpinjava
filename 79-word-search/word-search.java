@@ -1,5 +1,5 @@
 class Solution {
-    boolean ans=false;
+   // boolean ans=false;
 public static boolean getWord(char board[][],int i,int j,int idx,int n,String word,boolean vis[][]){
     if(idx==n){
         return true;
