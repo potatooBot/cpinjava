@@ -12,7 +12,7 @@ int start=0;
             sum=sum-nums[start];
             start++;
         }
-System.out.println(sum);
+//System.out.println(sum);
         if(map.get(sum)!=null&&map.get(sum)!=0) return true;
        map.put(sum,i);
        } 
