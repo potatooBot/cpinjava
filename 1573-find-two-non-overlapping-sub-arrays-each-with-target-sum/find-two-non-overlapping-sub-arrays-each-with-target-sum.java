@@ -14,7 +14,7 @@ while(sum>target){
     sum=sum-arr[start];
     start++;
 }
-System.out.println(sum);
+//System.out.println(sum);
 if(sum==target&&val>(i-start+1)){
      //System.out.println(sum+" "+start+" "+i);
     ans[0]=start;
@@ -60,12 +60,12 @@ for(int i=0;i<arr.length;i++){
     }
 }
 }
-System.out.println(ds);
+//System.out.println(ds);
 
           int ans2[]={-1,-1};
         second(ds,ans2,target);
-    System.out.println(Arrays.toString(ans1));
-      System.out.println(Arrays.toString(ans2));
+    //System.out.println(Arrays.toString(ans1));
+    //  System.out.println(Arrays.toString(ans2));
 
   if(ans1[0]+ans1[1]<0||ans2[0]+ans2[1]<0) return -1;
     return (ans1[1]-ans1[0]+1) +(ans2[1]-ans2[0]+1);
