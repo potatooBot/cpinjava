@@ -9,10 +9,12 @@ int cnt=0;
 sum=sum+nums[i];
 int rem=sum%k;
 
+//ystem.out.println(rem);
 if(rem<0) 
 {
     rem=rem+k;
 }
+
 
 if(map.containsKey(rem)==true){
     cnt=cnt+map.get(rem);
