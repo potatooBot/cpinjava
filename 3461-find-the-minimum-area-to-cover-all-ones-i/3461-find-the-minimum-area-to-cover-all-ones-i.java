@@ -61,10 +61,10 @@ int lefty=-1;
         }
 int widht=righty-lefty+1;
 int height=downx-upx+1;
-System.out.println(widht+" "+upx+" "+upy);
+/*System.out.println(widht+" "+upx+" "+upy);
 System.out.println(height+" "+downx+" "+downy);
 System.out.println(height+" "+leftx+" "+lefty);
-System.out.println(widht+" "+rightx+" "+righty);
+System.out.println(widht+" "+rightx+" "+righty);*/
         int ans=Math.abs(widht*height);
 return ans;
 
