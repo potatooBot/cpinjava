@@ -31,6 +31,7 @@
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/potatooBot/cpinjava/tree/master/0350-intersection-of-two-arrays-ii) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/potatooBot/cpinjava/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/potatooBot/cpinjava/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -56,4 +57,8 @@
 |  |
 | ------- |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/potatooBot/cpinjava/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+## Matrix
+|  |
+| ------- |
+| [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/potatooBot/cpinjava/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 <!---LeetCode Topics End-->
