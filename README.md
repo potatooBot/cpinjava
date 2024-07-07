@@ -56,6 +56,7 @@
 ## Simulation
 |  |
 | ------- |
+| [1642-water-bottles](https://github.com/potatooBot/cpinjava/tree/master/1642-water-bottles) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/potatooBot/cpinjava/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Prefix Sum
 |  |
@@ -70,4 +71,8 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/potatooBot/cpinjava/tree/master/0011-container-with-most-water) |
+## Math
+|  |
+| ------- |
+| [1642-water-bottles](https://github.com/potatooBot/cpinjava/tree/master/1642-water-bottles) |
 <!---LeetCode Topics End-->
