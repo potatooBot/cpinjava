@@ -58,6 +58,7 @@
 | ------- |
 | [1642-water-bottles](https://github.com/potatooBot/cpinjava/tree/master/1642-water-bottles) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/potatooBot/cpinjava/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [3336-water-bottles-ii](https://github.com/potatooBot/cpinjava/tree/master/3336-water-bottles-ii) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -75,4 +76,5 @@
 |  |
 | ------- |
 | [1642-water-bottles](https://github.com/potatooBot/cpinjava/tree/master/1642-water-bottles) |
+| [3336-water-bottles-ii](https://github.com/potatooBot/cpinjava/tree/master/3336-water-bottles-ii) |
 <!---LeetCode Topics End-->
