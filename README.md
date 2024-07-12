@@ -75,6 +75,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/potatooBot/cpinjava/tree/master/0011-container-with-most-water) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/potatooBot/cpinjava/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Math
 |  |
 | ------- |
@@ -93,8 +94,10 @@
 |  |
 | ------- |
 | [1720-crawler-log-folder](https://github.com/potatooBot/cpinjava/tree/master/1720-crawler-log-folder) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/potatooBot/cpinjava/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Stack
 |  |
 | ------- |
 | [1720-crawler-log-folder](https://github.com/potatooBot/cpinjava/tree/master/1720-crawler-log-folder) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/potatooBot/cpinjava/tree/master/1818-maximum-score-from-removing-substrings) |
 <!---LeetCode Topics End-->
