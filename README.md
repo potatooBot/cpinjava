@@ -37,6 +37,7 @@
 | [1951-find-the-winner-of-the-circular-game](https://github.com/potatooBot/cpinjava/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/potatooBot/cpinjava/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/potatooBot/cpinjava/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2386-min-max-game](https://github.com/potatooBot/cpinjava/tree/master/2386-min-max-game) |
 | [2846-robot-collisions](https://github.com/potatooBot/cpinjava/tree/master/2846-robot-collisions) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/potatooBot/cpinjava/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/potatooBot/cpinjava/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
@@ -67,6 +68,7 @@
 | [1642-water-bottles](https://github.com/potatooBot/cpinjava/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/potatooBot/cpinjava/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/potatooBot/cpinjava/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2386-min-max-game](https://github.com/potatooBot/cpinjava/tree/master/2386-min-max-game) |
 | [2846-robot-collisions](https://github.com/potatooBot/cpinjava/tree/master/2846-robot-collisions) |
 | [3336-water-bottles-ii](https://github.com/potatooBot/cpinjava/tree/master/3336-water-bottles-ii) |
 ## Prefix Sum
