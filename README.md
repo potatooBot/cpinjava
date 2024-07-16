@@ -108,6 +108,7 @@
 ## String
 |  |
 | ------- |
+| [0091-decode-ways](https://github.com/potatooBot/cpinjava/tree/master/0091-decode-ways) |
 | [1720-crawler-log-folder](https://github.com/potatooBot/cpinjava/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/potatooBot/cpinjava/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/potatooBot/cpinjava/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -135,4 +136,8 @@
 |  |
 | ------- |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/potatooBot/cpinjava/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0091-decode-ways](https://github.com/potatooBot/cpinjava/tree/master/0091-decode-ways) |
 <!---LeetCode Topics End-->
