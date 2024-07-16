@@ -36,6 +36,7 @@
 | [1720-crawler-log-folder](https://github.com/potatooBot/cpinjava/tree/master/1720-crawler-log-folder) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/potatooBot/cpinjava/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/potatooBot/cpinjava/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/potatooBot/cpinjava/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2846-robot-collisions](https://github.com/potatooBot/cpinjava/tree/master/2846-robot-collisions) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/potatooBot/cpinjava/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/potatooBot/cpinjava/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
@@ -44,6 +45,7 @@
 | ------- |
 | [0036-valid-sudoku](https://github.com/potatooBot/cpinjava/tree/master/0036-valid-sudoku) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/potatooBot/cpinjava/tree/master/0350-intersection-of-two-arrays-ii) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/potatooBot/cpinjava/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Two Pointers
 |  |
 | ------- |
@@ -114,4 +116,12 @@
 |  |
 | ------- |
 | [0304-range-sum-query-2d-immutable](https://github.com/potatooBot/cpinjava/tree/master/0304-range-sum-query-2d-immutable) |
+## Tree
+|  |
+| ------- |
+| [2306-create-binary-tree-from-descriptions](https://github.com/potatooBot/cpinjava/tree/master/2306-create-binary-tree-from-descriptions) |
+## Binary Tree
+|  |
+| ------- |
+| [2306-create-binary-tree-from-descriptions](https://github.com/potatooBot/cpinjava/tree/master/2306-create-binary-tree-from-descriptions) |
 <!---LeetCode Topics End-->
