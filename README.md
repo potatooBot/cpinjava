@@ -90,12 +90,14 @@
 ## Math
 |  |
 | ------- |
+| [0390-elimination-game](https://github.com/potatooBot/cpinjava/tree/master/0390-elimination-game) |
 | [1642-water-bottles](https://github.com/potatooBot/cpinjava/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/potatooBot/cpinjava/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [3336-water-bottles-ii](https://github.com/potatooBot/cpinjava/tree/master/3336-water-bottles-ii) |
 ## Recursion
 |  |
 | ------- |
+| [0390-elimination-game](https://github.com/potatooBot/cpinjava/tree/master/0390-elimination-game) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/potatooBot/cpinjava/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
 |  |
