@@ -33,6 +33,7 @@
 | [0036-valid-sudoku](https://github.com/potatooBot/cpinjava/tree/master/0036-valid-sudoku) |
 | [0304-range-sum-query-2d-immutable](https://github.com/potatooBot/cpinjava/tree/master/0304-range-sum-query-2d-immutable) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/potatooBot/cpinjava/tree/master/0350-intersection-of-two-arrays-ii) |
+| [1207-delete-nodes-and-return-forest](https://github.com/potatooBot/cpinjava/tree/master/1207-delete-nodes-and-return-forest) |
 | [1720-crawler-log-folder](https://github.com/potatooBot/cpinjava/tree/master/1720-crawler-log-folder) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/potatooBot/cpinjava/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/potatooBot/cpinjava/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
@@ -46,6 +47,7 @@
 | ------- |
 | [0036-valid-sudoku](https://github.com/potatooBot/cpinjava/tree/master/0036-valid-sudoku) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/potatooBot/cpinjava/tree/master/0350-intersection-of-two-arrays-ii) |
+| [1207-delete-nodes-and-return-forest](https://github.com/potatooBot/cpinjava/tree/master/1207-delete-nodes-and-return-forest) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/potatooBot/cpinjava/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Two Pointers
 |  |
@@ -125,16 +127,19 @@
 ## Tree
 |  |
 | ------- |
+| [1207-delete-nodes-and-return-forest](https://github.com/potatooBot/cpinjava/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/potatooBot/cpinjava/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/potatooBot/cpinjava/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Binary Tree
 |  |
 | ------- |
+| [1207-delete-nodes-and-return-forest](https://github.com/potatooBot/cpinjava/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/potatooBot/cpinjava/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/potatooBot/cpinjava/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Depth-First Search
 |  |
 | ------- |
+| [1207-delete-nodes-and-return-forest](https://github.com/potatooBot/cpinjava/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/potatooBot/cpinjava/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Dynamic Programming
 |  |
