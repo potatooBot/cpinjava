@@ -47,6 +47,7 @@
 | ------- |
 | [0036-valid-sudoku](https://github.com/potatooBot/cpinjava/tree/master/0036-valid-sudoku) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/potatooBot/cpinjava/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0355-design-twitter](https://github.com/potatooBot/cpinjava/tree/master/0355-design-twitter) |
 | [1207-delete-nodes-and-return-forest](https://github.com/potatooBot/cpinjava/tree/master/1207-delete-nodes-and-return-forest) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/potatooBot/cpinjava/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Two Pointers
@@ -124,6 +125,7 @@
 |  |
 | ------- |
 | [0304-range-sum-query-2d-immutable](https://github.com/potatooBot/cpinjava/tree/master/0304-range-sum-query-2d-immutable) |
+| [0355-design-twitter](https://github.com/potatooBot/cpinjava/tree/master/0355-design-twitter) |
 ## Tree
 |  |
 | ------- |
@@ -145,4 +147,12 @@
 |  |
 | ------- |
 | [0091-decode-ways](https://github.com/potatooBot/cpinjava/tree/master/0091-decode-ways) |
+## Linked List
+|  |
+| ------- |
+| [0355-design-twitter](https://github.com/potatooBot/cpinjava/tree/master/0355-design-twitter) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0355-design-twitter](https://github.com/potatooBot/cpinjava/tree/master/0355-design-twitter) |
 <!---LeetCode Topics End-->
