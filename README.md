@@ -43,6 +43,7 @@
 | [2846-robot-collisions](https://github.com/potatooBot/cpinjava/tree/master/2846-robot-collisions) |
 | [3264-maximum-points-after-enemy-battles](https://github.com/potatooBot/cpinjava/tree/master/3264-maximum-points-after-enemy-battles) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/potatooBot/cpinjava/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
+| [3463-alternating-groups-i](https://github.com/potatooBot/cpinjava/tree/master/3463-alternating-groups-i) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/potatooBot/cpinjava/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3494-minimum-cost-for-cutting-cake-i](https://github.com/potatooBot/cpinjava/tree/master/3494-minimum-cost-for-cutting-cake-i) |
 | [3500-minimum-cost-for-cutting-cake-ii](https://github.com/potatooBot/cpinjava/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
@@ -166,4 +167,8 @@
 |  |
 | ------- |
 | [0355-design-twitter](https://github.com/potatooBot/cpinjava/tree/master/0355-design-twitter) |
+## Sliding Window
+|  |
+| ------- |
+| [3463-alternating-groups-i](https://github.com/potatooBot/cpinjava/tree/master/3463-alternating-groups-i) |
 <!---LeetCode Topics End-->
