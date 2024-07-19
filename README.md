@@ -44,6 +44,7 @@
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/potatooBot/cpinjava/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/potatooBot/cpinjava/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3494-minimum-cost-for-cutting-cake-i](https://github.com/potatooBot/cpinjava/tree/master/3494-minimum-cost-for-cutting-cake-i) |
+| [3500-minimum-cost-for-cutting-cake-ii](https://github.com/potatooBot/cpinjava/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -68,6 +69,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/potatooBot/cpinjava/tree/master/0350-intersection-of-two-arrays-ii) |
 | [2846-robot-collisions](https://github.com/potatooBot/cpinjava/tree/master/2846-robot-collisions) |
 | [3494-minimum-cost-for-cutting-cake-i](https://github.com/potatooBot/cpinjava/tree/master/3494-minimum-cost-for-cutting-cake-i) |
+| [3500-minimum-cost-for-cutting-cake-ii](https://github.com/potatooBot/cpinjava/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
 ## Simulation
 |  |
 | ------- |
@@ -97,6 +99,7 @@
 | [0011-container-with-most-water](https://github.com/potatooBot/cpinjava/tree/master/0011-container-with-most-water) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/potatooBot/cpinjava/tree/master/1818-maximum-score-from-removing-substrings) |
 | [3494-minimum-cost-for-cutting-cake-i](https://github.com/potatooBot/cpinjava/tree/master/3494-minimum-cost-for-cutting-cake-i) |
+| [3500-minimum-cost-for-cutting-cake-ii](https://github.com/potatooBot/cpinjava/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
 ## Math
 |  |
 | ------- |
