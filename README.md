@@ -40,6 +40,7 @@
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/potatooBot/cpinjava/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/potatooBot/cpinjava/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2386-min-max-game](https://github.com/potatooBot/cpinjava/tree/master/2386-min-max-game) |
+| [2502-sort-the-people](https://github.com/potatooBot/cpinjava/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/potatooBot/cpinjava/tree/master/2846-robot-collisions) |
 | [3264-maximum-points-after-enemy-battles](https://github.com/potatooBot/cpinjava/tree/master/3264-maximum-points-after-enemy-battles) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/potatooBot/cpinjava/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
@@ -55,6 +56,7 @@
 | [0355-design-twitter](https://github.com/potatooBot/cpinjava/tree/master/0355-design-twitter) |
 | [1207-delete-nodes-and-return-forest](https://github.com/potatooBot/cpinjava/tree/master/1207-delete-nodes-and-return-forest) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/potatooBot/cpinjava/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2502-sort-the-people](https://github.com/potatooBot/cpinjava/tree/master/2502-sort-the-people) |
 ## Two Pointers
 |  |
 | ------- |
@@ -69,6 +71,7 @@
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/potatooBot/cpinjava/tree/master/0350-intersection-of-two-arrays-ii) |
+| [2502-sort-the-people](https://github.com/potatooBot/cpinjava/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/potatooBot/cpinjava/tree/master/2846-robot-collisions) |
 | [3494-minimum-cost-for-cutting-cake-i](https://github.com/potatooBot/cpinjava/tree/master/3494-minimum-cost-for-cutting-cake-i) |
 | [3500-minimum-cost-for-cutting-cake-ii](https://github.com/potatooBot/cpinjava/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
@@ -126,6 +129,7 @@
 | [1720-crawler-log-folder](https://github.com/potatooBot/cpinjava/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/potatooBot/cpinjava/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/potatooBot/cpinjava/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2502-sort-the-people](https://github.com/potatooBot/cpinjava/tree/master/2502-sort-the-people) |
 ## Stack
 |  |
 | ------- |
