@@ -49,6 +49,7 @@
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/potatooBot/cpinjava/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3494-minimum-cost-for-cutting-cake-i](https://github.com/potatooBot/cpinjava/tree/master/3494-minimum-cost-for-cutting-cake-i) |
 | [3500-minimum-cost-for-cutting-cake-ii](https://github.com/potatooBot/cpinjava/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
+| [3517-shortest-distance-after-road-addition-queries-i](https://github.com/potatooBot/cpinjava/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -198,4 +199,12 @@
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/potatooBot/cpinjava/tree/master/0948-sort-an-array) |
+## Breadth-First Search
+|  |
+| ------- |
+| [3517-shortest-distance-after-road-addition-queries-i](https://github.com/potatooBot/cpinjava/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
+## Graph
+|  |
+| ------- |
+| [3517-shortest-distance-after-road-addition-queries-i](https://github.com/potatooBot/cpinjava/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 <!---LeetCode Topics End-->
