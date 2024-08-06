@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/design-neighbor-sum-service">3516. Design Neighbor Sum Service</a></h2><h3>Easy</h3><hr><p>You are given a <code>n x n</code> 2D array <code>grid</code> containing <strong>distinct</strong> elements in the range <code>[0, n<sup>2</sup> - 1]</code>.</p>
+<h2><a href="https://leetcode.com/problems/design-neighbor-sum-service">Design Neighbor Sum Service</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given a <code>n x n</code> 2D array <code>grid</code> containing <strong>distinct</strong> elements in the range <code>[0, n<sup>2</sup> - 1]</code>.</p>
 
 <p>Implement the <code>neighborSum</code> class:</p>
 
