@@ -51,6 +51,7 @@
 | [3500-minimum-cost-for-cutting-cake-ii](https://github.com/potatooBot/cpinjava/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
 | [3516-design-neighbor-sum-service](https://github.com/potatooBot/cpinjava/tree/master/3516-design-neighbor-sum-service) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/potatooBot/cpinjava/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
+| [3519-find-the-number-of-winning-players](https://github.com/potatooBot/cpinjava/tree/master/3519-find-the-number-of-winning-players) |
 ## Hash Table
 |  |
 | ------- |
@@ -61,6 +62,7 @@
 | [2306-create-binary-tree-from-descriptions](https://github.com/potatooBot/cpinjava/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/potatooBot/cpinjava/tree/master/2502-sort-the-people) |
 | [3516-design-neighbor-sum-service](https://github.com/potatooBot/cpinjava/tree/master/3516-design-neighbor-sum-service) |
+| [3519-find-the-number-of-winning-players](https://github.com/potatooBot/cpinjava/tree/master/3519-find-the-number-of-winning-players) |
 ## Two Pointers
 |  |
 | ------- |
@@ -204,6 +206,7 @@
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/potatooBot/cpinjava/tree/master/0948-sort-an-array) |
+| [3519-find-the-number-of-winning-players](https://github.com/potatooBot/cpinjava/tree/master/3519-find-the-number-of-winning-players) |
 ## Breadth-First Search
 |  |
 | ------- |
