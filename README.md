@@ -50,6 +50,7 @@
 | [3494-minimum-cost-for-cutting-cake-i](https://github.com/potatooBot/cpinjava/tree/master/3494-minimum-cost-for-cutting-cake-i) |
 | [3500-minimum-cost-for-cutting-cake-ii](https://github.com/potatooBot/cpinjava/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
 | [3514-shortest-distance-after-road-addition-queries-ii](https://github.com/potatooBot/cpinjava/tree/master/3514-shortest-distance-after-road-addition-queries-ii) |
+| [3515-find-if-digit-game-can-be-won](https://github.com/potatooBot/cpinjava/tree/master/3515-find-if-digit-game-can-be-won) |
 | [3516-design-neighbor-sum-service](https://github.com/potatooBot/cpinjava/tree/master/3516-design-neighbor-sum-service) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/potatooBot/cpinjava/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3519-find-the-number-of-winning-players](https://github.com/potatooBot/cpinjava/tree/master/3519-find-the-number-of-winning-players) |
@@ -127,6 +128,7 @@
 | [1642-water-bottles](https://github.com/potatooBot/cpinjava/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/potatooBot/cpinjava/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [3336-water-bottles-ii](https://github.com/potatooBot/cpinjava/tree/master/3336-water-bottles-ii) |
+| [3515-find-if-digit-game-can-be-won](https://github.com/potatooBot/cpinjava/tree/master/3515-find-if-digit-game-can-be-won) |
 ## Recursion
 |  |
 | ------- |
