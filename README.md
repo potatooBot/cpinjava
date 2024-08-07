@@ -49,6 +49,7 @@
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/potatooBot/cpinjava/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3494-minimum-cost-for-cutting-cake-i](https://github.com/potatooBot/cpinjava/tree/master/3494-minimum-cost-for-cutting-cake-i) |
 | [3500-minimum-cost-for-cutting-cake-ii](https://github.com/potatooBot/cpinjava/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
+| [3514-shortest-distance-after-road-addition-queries-ii](https://github.com/potatooBot/cpinjava/tree/master/3514-shortest-distance-after-road-addition-queries-ii) |
 | [3516-design-neighbor-sum-service](https://github.com/potatooBot/cpinjava/tree/master/3516-design-neighbor-sum-service) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/potatooBot/cpinjava/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3519-find-the-number-of-winning-players](https://github.com/potatooBot/cpinjava/tree/master/3519-find-the-number-of-winning-players) |
@@ -118,6 +119,7 @@
 | [3264-maximum-points-after-enemy-battles](https://github.com/potatooBot/cpinjava/tree/master/3264-maximum-points-after-enemy-battles) |
 | [3494-minimum-cost-for-cutting-cake-i](https://github.com/potatooBot/cpinjava/tree/master/3494-minimum-cost-for-cutting-cake-i) |
 | [3500-minimum-cost-for-cutting-cake-ii](https://github.com/potatooBot/cpinjava/tree/master/3500-minimum-cost-for-cutting-cake-ii) |
+| [3514-shortest-distance-after-road-addition-queries-ii](https://github.com/potatooBot/cpinjava/tree/master/3514-shortest-distance-after-road-addition-queries-ii) |
 ## Math
 |  |
 | ------- |
@@ -217,5 +219,10 @@
 ## Graph
 |  |
 | ------- |
+| [3514-shortest-distance-after-road-addition-queries-ii](https://github.com/potatooBot/cpinjava/tree/master/3514-shortest-distance-after-road-addition-queries-ii) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/potatooBot/cpinjava/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
+## Ordered Set
+|  |
+| ------- |
+| [3514-shortest-distance-after-road-addition-queries-ii](https://github.com/potatooBot/cpinjava/tree/master/3514-shortest-distance-after-road-addition-queries-ii) |
 <!---LeetCode Topics End-->
