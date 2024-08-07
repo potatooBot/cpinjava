@@ -95,6 +95,7 @@
 | [2386-min-max-game](https://github.com/potatooBot/cpinjava/tree/master/2386-min-max-game) |
 | [2846-robot-collisions](https://github.com/potatooBot/cpinjava/tree/master/2846-robot-collisions) |
 | [3336-water-bottles-ii](https://github.com/potatooBot/cpinjava/tree/master/3336-water-bottles-ii) |
+| [3511-find-the-winning-player-in-coin-game](https://github.com/potatooBot/cpinjava/tree/master/3511-find-the-winning-player-in-coin-game) |
 | [3516-design-neighbor-sum-service](https://github.com/potatooBot/cpinjava/tree/master/3516-design-neighbor-sum-service) |
 ## Prefix Sum
 |  |
@@ -128,6 +129,7 @@
 | [1642-water-bottles](https://github.com/potatooBot/cpinjava/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/potatooBot/cpinjava/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [3336-water-bottles-ii](https://github.com/potatooBot/cpinjava/tree/master/3336-water-bottles-ii) |
+| [3511-find-the-winning-player-in-coin-game](https://github.com/potatooBot/cpinjava/tree/master/3511-find-the-winning-player-in-coin-game) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/potatooBot/cpinjava/tree/master/3515-find-if-digit-game-can-be-won) |
 ## Recursion
 |  |
@@ -227,4 +229,8 @@
 |  |
 | ------- |
 | [3514-shortest-distance-after-road-addition-queries-ii](https://github.com/potatooBot/cpinjava/tree/master/3514-shortest-distance-after-road-addition-queries-ii) |
+## Game Theory
+|  |
+| ------- |
+| [3511-find-the-winning-player-in-coin-game](https://github.com/potatooBot/cpinjava/tree/master/3511-find-the-winning-player-in-coin-game) |
 <!---LeetCode Topics End-->
