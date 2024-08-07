@@ -52,6 +52,7 @@
 | [3516-design-neighbor-sum-service](https://github.com/potatooBot/cpinjava/tree/master/3516-design-neighbor-sum-service) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/potatooBot/cpinjava/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3519-find-the-number-of-winning-players](https://github.com/potatooBot/cpinjava/tree/master/3519-find-the-number-of-winning-players) |
+| [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/potatooBot/cpinjava/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -68,6 +69,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/potatooBot/cpinjava/tree/master/0011-container-with-most-water) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/potatooBot/cpinjava/tree/master/0350-intersection-of-two-arrays-ii) |
+| [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/potatooBot/cpinjava/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -107,6 +109,7 @@
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/potatooBot/cpinjava/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/potatooBot/cpinjava/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3516-design-neighbor-sum-service](https://github.com/potatooBot/cpinjava/tree/master/3516-design-neighbor-sum-service) |
+| [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/potatooBot/cpinjava/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 ## Greedy
 |  |
 | ------- |
