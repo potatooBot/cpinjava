@@ -64,6 +64,7 @@
 | [1207-delete-nodes-and-return-forest](https://github.com/potatooBot/cpinjava/tree/master/1207-delete-nodes-and-return-forest) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/potatooBot/cpinjava/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/potatooBot/cpinjava/tree/master/2502-sort-the-people) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/potatooBot/cpinjava/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3516-design-neighbor-sum-service](https://github.com/potatooBot/cpinjava/tree/master/3516-design-neighbor-sum-service) |
 | [3519-find-the-number-of-winning-players](https://github.com/potatooBot/cpinjava/tree/master/3519-find-the-number-of-winning-players) |
 ## Two Pointers
@@ -148,6 +149,7 @@
 | [1818-maximum-score-from-removing-substrings](https://github.com/potatooBot/cpinjava/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/potatooBot/cpinjava/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2502-sort-the-people](https://github.com/potatooBot/cpinjava/tree/master/2502-sort-the-people) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/potatooBot/cpinjava/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Stack
 |  |
 | ------- |
@@ -215,6 +217,7 @@
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/potatooBot/cpinjava/tree/master/0948-sort-an-array) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/potatooBot/cpinjava/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3519-find-the-number-of-winning-players](https://github.com/potatooBot/cpinjava/tree/master/3519-find-the-number-of-winning-players) |
 ## Breadth-First Search
 |  |
