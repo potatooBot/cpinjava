@@ -4,7 +4,7 @@ class Solution {
         int rows = grid.length;
         int cols = grid[0].length;
 
-        // Iterate through each possible 3x3 subgrid
+
         for (int i = 0; i <= rows - 3; i++) {
             for (int j = 0; j <= cols - 3; j++) {
                 if (isMagicSquare(grid, i, j)) {
@@ -16,7 +16,7 @@ class Solution {
     }
 
     private boolean isMagicSquare(int[][] grid, int rowStart, int colStart) {
-        // Check if the 3x3 grid contains all numbers from 1 to 9
+
         boolean[] seen = new boolean[10];
         for (int i = rowStart; i < rowStart + 3; i++) {
             for (int j = colStart; j < colStart + 3; j++) {
@@ -28,24 +28,24 @@ class Solution {
             }
         }
 
-        // Calculate the sum of the first row
+   
         int sum = grid[rowStart][colStart] + grid[rowStart][colStart + 1] + grid[rowStart][colStart + 2];
 
-        // Check rows
+        
         for (int i = rowStart; i < rowStart + 3; i++) {
             if (grid[i][colStart] + grid[i][colStart + 1] + grid[i][colStart + 2] != sum) {
                 return false;
             }
         }
 
-        // Check columns
+     
         for (int j = colStart; j < colStart + 3; j++) {
             if (grid[rowStart][j] + grid[rowStart + 1][j] + grid[rowStart + 2][j] != sum) {
                 return false;
             }
         }
 
-        // Check diagonals
+ 
         if (grid[rowStart][colStart] + grid[rowStart + 1][colStart + 1] + grid[rowStart + 2][colStart + 2] != sum) {
             return false;
         }
