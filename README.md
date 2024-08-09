@@ -33,6 +33,7 @@
 | [0036-valid-sudoku](https://github.com/potatooBot/cpinjava/tree/master/0036-valid-sudoku) |
 | [0304-range-sum-query-2d-immutable](https://github.com/potatooBot/cpinjava/tree/master/0304-range-sum-query-2d-immutable) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/potatooBot/cpinjava/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0870-magic-squares-in-grid](https://github.com/potatooBot/cpinjava/tree/master/0870-magic-squares-in-grid) |
 | [0948-sort-an-array](https://github.com/potatooBot/cpinjava/tree/master/0948-sort-an-array) |
 | [1207-delete-nodes-and-return-forest](https://github.com/potatooBot/cpinjava/tree/master/1207-delete-nodes-and-return-forest) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/potatooBot/cpinjava/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -61,6 +62,7 @@
 | [0036-valid-sudoku](https://github.com/potatooBot/cpinjava/tree/master/0036-valid-sudoku) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/potatooBot/cpinjava/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0355-design-twitter](https://github.com/potatooBot/cpinjava/tree/master/0355-design-twitter) |
+| [0870-magic-squares-in-grid](https://github.com/potatooBot/cpinjava/tree/master/0870-magic-squares-in-grid) |
 | [1207-delete-nodes-and-return-forest](https://github.com/potatooBot/cpinjava/tree/master/1207-delete-nodes-and-return-forest) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/potatooBot/cpinjava/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/potatooBot/cpinjava/tree/master/2502-sort-the-people) |
@@ -109,6 +111,7 @@
 | ------- |
 | [0036-valid-sudoku](https://github.com/potatooBot/cpinjava/tree/master/0036-valid-sudoku) |
 | [0304-range-sum-query-2d-immutable](https://github.com/potatooBot/cpinjava/tree/master/0304-range-sum-query-2d-immutable) |
+| [0870-magic-squares-in-grid](https://github.com/potatooBot/cpinjava/tree/master/0870-magic-squares-in-grid) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/potatooBot/cpinjava/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/potatooBot/cpinjava/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/potatooBot/cpinjava/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
@@ -127,6 +130,7 @@
 |  |
 | ------- |
 | [0390-elimination-game](https://github.com/potatooBot/cpinjava/tree/master/0390-elimination-game) |
+| [0870-magic-squares-in-grid](https://github.com/potatooBot/cpinjava/tree/master/0870-magic-squares-in-grid) |
 | [1642-water-bottles](https://github.com/potatooBot/cpinjava/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/potatooBot/cpinjava/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [3336-water-bottles-ii](https://github.com/potatooBot/cpinjava/tree/master/3336-water-bottles-ii) |
