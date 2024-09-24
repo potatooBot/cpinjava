@@ -1,7 +1,10 @@
-package Design_Questions;
-import java.util.*;
-import java.util.*;
-public class shivam_test {
+package Anagram;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+public class find_all_anagram_in_string {
     public static List<Integer> findAnagrams(String s, String p) {
         List<Integer> ans=new ArrayList<>();
         HashMap<Character,Integer> map1=new HashMap<>();
@@ -26,13 +29,13 @@ public class shivam_test {
                 continue;
             }
             map2.put(ch,map2.getOrDefault(ch,0)+1);
-          //  System.out.println(ch);
+            //  System.out.println(ch);
             while(map2.containsKey(ch)&&map2.get(ch)>map1.get(ch)){
                 map2.put(s.charAt(start),map2.get(s.charAt(start))-1);
-               if(map2.get(s.charAt(start))==null)
-               {
-                   map2.remove(s.charAt(start));
-               }
+                if(map2.get(s.charAt(start))==null)
+                {
+                    map2.remove(s.charAt(start));
+                }
                 start++;
             }
 
@@ -48,5 +51,5 @@ public class shivam_test {
     public static void main(String[] args) {
         System.out.println(findAnagrams("abab","ab"));
 
- }
+    }
 }
