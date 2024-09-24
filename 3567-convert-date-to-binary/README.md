@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/convert-date-to-binary">3567. Convert Date to Binary</a></h2><h3>Easy</h3><hr><p>You are given a string <code>date</code> representing a Gregorian calendar date in the <code>yyyy-mm-dd</code> format.</p>
+<h2><a href="https://leetcode.com/problems/convert-date-to-binary">Convert Date to Binary</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given a string <code>date</code> representing a Gregorian calendar date in the <code>yyyy-mm-dd</code> format.</p>
 
 <p><code>date</code> can be written in its binary representation obtained by converting year, month, and day to their binary representations without any leading zeroes and writing them down in <code>year-month-day</code> format.</p>
 
