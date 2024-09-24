@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/src/LeetcodeQuestions/leetcode/editor/en/[338]Counting Bits.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/LeetcodeQuestions/leetcode/editor/en/doc/content/[338]Counting Bits.md" />
+              <option name="frontendQuestionId" value="leetcode.com338" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/LeetcodeQuestions/leetcode/editor/en/[338]Counting Bits.java" />
+              <option name="titleSlug" value="counting-bits" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/LeetcodeQuestions/leetcode/editor/en/[506]Relative Ranks.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/LeetcodeQuestions/leetcode/editor/en/doc/content/[506]Relative Ranks.md" />
+              <option name="frontendQuestionId" value="leetcode.com506" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/LeetcodeQuestions/leetcode/editor/en/[506]Relative Ranks.java" />
+              <option name="titleSlug" value="relative-ranks" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/LeetcodeQuestions/leetcode/editor/en/[511]Game Play Analysis I.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/LeetcodeQuestions/leetcode/editor/en/doc/content/[511]Game Play Analysis I.md" />
+              <option name="frontendQuestionId" value="leetcode.com511" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/LeetcodeQuestions/leetcode/editor/en/[511]Game Play Analysis I.java" />
+              <option name="titleSlug" value="game-play-analysis-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/LeetcodeQuestions/leetcode/editor/en/[561]Array Partition.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/LeetcodeQuestions/leetcode/editor/en/doc/content/[561]Array Partition.md" />
+              <option name="frontendQuestionId" value="leetcode.com561" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/LeetcodeQuestions/leetcode/editor/en/[561]Array Partition.java" />
+              <option name="titleSlug" value="array-partition" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
