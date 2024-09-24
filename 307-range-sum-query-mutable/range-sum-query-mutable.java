@@ -18,7 +18,7 @@ seg[idx]=seg[2*idx+1]+seg[2*idx+2];
     public NumArray(int[] nums) {
   seg=new int[4*(nums.length-1)+1];
   arr=new int[nums.length];
-  System.out.println(Arrays.toString(nums));
+  //System.out.println(Arrays.toString(nums));
   for(int i=0;i<nums.length;i++) 
   arr[i]=nums[i];
 
