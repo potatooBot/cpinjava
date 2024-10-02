@@ -35,6 +35,11 @@ else {
   row= row+dr[di];
   col= col+ dc[di];
 }
+// 1 , 0 
+// 0,0
+ // di= 3  (3+1)%4==0 di= 0
+// row= 1 col =0   1,1   1 +dr[0]= 1 +0 =1  row =1
+// col 0                 0 +dc[0] =0 +1 = 1 col =1  
 
 
 }
