@@ -7,7 +7,7 @@ class Solution {
         
        
         for (int i = maximumHeight.length - 1; i >= 0; i--) {
-            if (maximumHeight[i] <= maxVal) {
+            if (maximumHeight[i] < maxVal) {
                 maxSum += maximumHeight[i];
                 maxVal = maximumHeight[i] - 1;
             } else if (maxVal == 0) {
