@@ -19,13 +19,13 @@ if(vis[adjNode]==false){
         }
     }
     public boolean [] checkValid(boolean sus[],ArrayList<ArrayList<Integer>> adjList,int n){
-         System.out.println(adjList);
+         //System.out.println(adjList);
          int i=0;
 for(ArrayList<Integer> ele:adjList){
     
    for(int node:ele){
     if(sus[i]==false&&sus[node]==true){
-        System.out.println();
+       // System.out.println();
         boolean ans[]=new boolean [n];
         return ans;
     }
@@ -52,7 +52,7 @@ sus=checkValid(sus,adjList,n);
     List<Integer> ans=new ArrayList<>();
 
 
-System.out.println(Arrays.toString(sus));
+//System.out.println(Arrays.toString(sus));
 
 for(int i=0;i<n;i++)
 {
