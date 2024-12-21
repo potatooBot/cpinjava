@@ -14,4 +14,8 @@
 |  |
 | ------- |
 | [3567-convert-date-to-binary](https://github.com/potatooBot/cpinjava/tree/master/3567-convert-date-to-binary) |
+## Array
+|  |
+| ------- |
+| [3632-button-with-longest-push-time](https://github.com/potatooBot/cpinjava/tree/master/3632-button-with-longest-push-time) |
 <!---LeetCode Topics End-->
