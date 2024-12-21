@@ -15,7 +15,7 @@ else{
 }
         }
 
-System.out.println(map);
+//System.out.println(map);
         int ans=0;
         int tm=0;
         for(Map.Entry<Integer,Integer> entry:map.entrySet()){
