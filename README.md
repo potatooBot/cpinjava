@@ -17,5 +17,6 @@
 ## Array
 |  |
 | ------- |
+| [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/potatooBot/cpinjava/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3632-button-with-longest-push-time](https://github.com/potatooBot/cpinjava/tree/master/3632-button-with-longest-push-time) |
 <!---LeetCode Topics End-->
