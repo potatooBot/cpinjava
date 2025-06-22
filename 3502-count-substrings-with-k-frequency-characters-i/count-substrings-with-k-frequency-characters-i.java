@@ -1,22 +1,18 @@
-import java.util.HashMap;
-
 class Solution {
     public int numberOfSubstrings(String s, int k) {
-        int ans = 0;
-        int l = 0;
-        HashMap<Character, Integer> d = new HashMap<>();
-        
-        for (char c : s.toCharArray()) {
-            d.put(c, d.getOrDefault(c, 0) + 1);
-            
-            while (d.get(c) == k) {
-                d.put(s.charAt(l), d.get(s.charAt(l)) - 1);
-                l++;
+        int low=0;
+        int ans=0;
+        HashMap<Character,Integer> map=new HashMap<>();
+        for(int end=0;end<s.length();end++){
+            map.put(s.charAt(end),map.getOrDefault(s.charAt(end),0)+1);
+            while(map.get(s.charAt(end))==k){
+                map.put(s.charAt(low),map.get(s.charAt(low))-1);
+low++;
             }
-            
-            ans += l;
-        }
 
+
+            ans=ans+low;
+        }
         return ans;
     }
 }
