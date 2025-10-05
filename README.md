@@ -26,4 +26,5 @@
 | ------- |
 | [0039-combination-sum](https://github.com/potatooBot/cpinjava/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/potatooBot/cpinjava/tree/master/0040-combination-sum-ii) |
+| [0052-n-queens-ii](https://github.com/potatooBot/cpinjava/tree/master/0052-n-queens-ii) |
 <!---LeetCode Topics End-->
